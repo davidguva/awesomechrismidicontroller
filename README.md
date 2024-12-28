@@ -1,7 +1,9 @@
 # awesome chris midi controller
 
-PLEASE NOTE THAT THIS IS A WORK IN PROGRESS PROJECT.
+### PLEASE NOTE THAT THIS IS A WORK IN PROGRESS PROJECT.
+
 The code works and has been tested but it's not pretty.
+
 ---
 This project is an advanced MIDI controller built using an ESP32 board. It features:
 - Button inputs with debouncing for reliable operation.
