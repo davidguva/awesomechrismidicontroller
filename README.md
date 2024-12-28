@@ -1,5 +1,8 @@
 # awesome chris midi controller
 
+PLEASE NOTE THAT THIS IS A WORK IN PROGRESS PROJECT.
+The code works and has been tested but it's not pretty.
+---
 This project is an advanced MIDI controller built using an ESP32 board. It features:
 - Button inputs with debouncing for reliable operation.
 - Configurable modes including Normal, Config, and Bluetooth (BT) modes.
@@ -26,7 +29,7 @@ BLEMidi is dependent on NimBLE-Arduino which has been updated to version 2 and t
 - Implement advanced LED animations for feedback.
 ---
 ## Hardware Requirements
-- ESP32 board with sufficient GPIO pins and with support for MIDI over USB.
+- ESP32 board with sufficient GPIO pins and with support for MIDI over USB. I would suggest the ESP32-S3 which is cheap and has enough inputs for at least a 12 button pedal.
 - Buttons for input (connected to specified GPIO pins).
 - Joystick (connected to analog pins for X and Y axes). (Obviously not required for now)
 - LEDs (optional for status indication). (Optional)
