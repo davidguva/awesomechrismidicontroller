@@ -46,11 +46,12 @@ BLEMidi is dependent on NimBLE-Arduino which has been updated to version 2 and t
   - [WiFi](https://www.arduino.cc/): For Wi-Fi functionality.
   - [WebServer](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WebServer): To host the configuration interface.
   - [BLEMidi](https://github.com/asterics/Arduino-BLE-MIDI): For Bluetooth MIDI.
+  - You will also need to install the LittleFS extension for uploading files to your board.
 
 ---
 
 ## Configuration
-###### 1.	Normal Mode:
+###### Normal Mode:
 Default if no button is pressed during boot.
 ###### Config Mode:
 Entered by holding the config button (gpio_pins[1]) during boot.
@@ -60,6 +61,12 @@ Entered by holding the Bluetooth button (gpio_pins[0]) during boot.
 Enables Bluetooth MIDI functionality.
 
 The JSON structure for each button is   [1, 1, 127] which translates to  [type, note, velocity]. The types are 1. CC, 2. PC and 3. Note.
+
+---
+
+## Support
+
+If you use the code and want to thank me you can always [buy me a coffee](https://buymeacoffee.com/davidguva).
 
 ---
 
